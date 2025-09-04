@@ -1,5 +1,5 @@
 # Bank Management
-#### Video Demo:  <https://youtu.be/bMQsPtjkEmk>
+### Video Demo:  <https://youtu.be/bMQsPtjkEmk>
 #### Description:
 Bank management is a very simple project which ask users for new or existing account and if already an account exists with valid crn, It states your account is healthy(I could have added more functionality here specially balance check). If not valid CRN it exists the code if you say so. If new user it creates your account with some basic information like name, city, age, mobile and email. then for verfication it ask for email OTP and then email you your new CRN and store the data in csv file for future purpose.
 
