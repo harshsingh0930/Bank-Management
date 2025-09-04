@@ -1,2 +1,2 @@
 pytest
-rest are built-in libararies of python
+rest all are built-in libararies of python
