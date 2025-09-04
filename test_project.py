@@ -11,7 +11,7 @@ def test_get_name():
 def test_get_num():
     assert re.match(r"^[0-9]{10}$","9891876123")
     assert not re.match(r"^[0-9]{10}$","1233456643455")
-    assert not re.match(r"^[0-9]{10}$","harsh")
+    assert not re.match(r"^[0-9]{10}$","Harsh")
 
 def test_get_email():
     assert not re.match(r"^\w+(\.\w+)?@\w+\.\w+(\.\w+)?$","hoee")
