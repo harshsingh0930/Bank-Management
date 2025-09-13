@@ -122,8 +122,8 @@ def verify_email(user_email):
         print(f"Error: {e}")
         return None
 
-sender_email = "anything@domain.com"
-app_password = "cdfg fhhg hysg sasj"
+sender_email = "anything@domain.com"   # Use you testing mail id here
+app_password = "cdfg fhhg hysg sasj"   # Create app passowrd, like for gmail follow this [guide](https://support.google.com/mail/answer/185833?hl=en)
 
 def get_crn():
     crn = random.randint(1000,9999)
